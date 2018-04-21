@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   resources :blog_galary
   resources :blog_details
   resources :contact_us
-
+  get 'admin/', to: 'admin/admin_home#index'
   namespace :admin do
     resources :admin_home
     resources :tables
