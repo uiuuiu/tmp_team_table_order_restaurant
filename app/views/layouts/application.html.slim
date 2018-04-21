@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    meta content=("text/html; charset=UTF-8") http-equiv="Content-Type"
+    meta content=("text/html; charset=UTF-8") http-equiv="Content-Type"
+    meta charset="utf-8"
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1" name="viewport"
+    link href="img/express-favicon.png" rel="icon" type="image/x-icon"
+    /! The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    title RedCaynne Re
+    /! Icon css link
+    link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet"
+    link href="font-awesome.min.css" rel="stylesheet"
+    link href="vendors/linears-icon/style.css" rel="stylesheet"
+    /! Bootstrap
+    link href="bootstrap.min.css" rel="stylesheet"
+    /! Rev slider css
+    link href="vendors/revolution/css/settings.css" rel="stylesheet"
+    link href="vendors/revolution/css/layers.css" rel="stylesheet"
+    link href="vendors/revolution/css/navigation.css" rel="stylesheet"
+    /! Extra plugin css
+    link href="vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet"
+    link href="vendors/bootatrap-date-time/bootstrap-datetimepicker.min.css" rel="stylesheet"
+    link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet"
+    link href="style.css" rel="stylesheet"
+    link href="responsive.css" rel="stylesheet"
+    title RestaurantTableOrder
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+
+  body
+    = yield

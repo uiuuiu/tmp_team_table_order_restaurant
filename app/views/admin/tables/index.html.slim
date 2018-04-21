@@ -1,0 +1,27 @@
+.main-inner
+  .container
+    .row
+      .span12
+        .widget
+          .widget-header
+            span
+            h3 Table Management
+          .widget-content
+            table.table.table-striped.table-bordered.action-table
+              thead
+                tr
+                  th Table code
+                  th Table name
+                  th.td-actions style="width: 140px"
+              tbody
+                - @tables.each do |table|
+                  tr
+                    td
+                      = table.table_code
+                    td
+                      = table.table_name
+                    td.td-actions
+                      = link_to "Edit", edit_admin_table_path(table), class: "btn btn-small btn-success"
+                      = link_to "Detail", admin_table_path(table), class: "btn btn-small btn-success"
+                      = link_to admin_table_path(table), class: "btn btn-danger btn-small", method: :delete do
+                        i.btn-icon-only.icon-remove

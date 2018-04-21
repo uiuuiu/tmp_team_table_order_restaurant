@@ -1,0 +1,462 @@
+#preloader
+  .loader.absolute-center
+    .loader__box
+      b.top
+    .loader__box
+      b.top
+    .loader__box
+      b.top
+/! ================ Frist hader Area =================
+.first_header
+  .container
+    .row
+      .col-md-4
+        .header_contact_details
+          a href="#"
+            i.fa.fa-phone
+            | +1 (168) 314 5016
+          a href="#"
+            i.fa.fa-envelope-o
+            | +1 (168) 314 5016
+      .col-md-4
+        .event_btn_inner
+          a.event_btn href="table.html"
+            i.fa.fa-table aria-hidden="true"
+            | Book a Table
+          a.event_btn href="event.html"
+            i.fa.fa-calendar aria-hidden="true"
+            | Book an Event
+      .col-md-4
+        .header_social
+          ul
+            li
+              a href="#"
+                i.fa.fa-facebook
+            li
+              a href="#"
+                i.fa.fa-twitter
+            li
+              a href="#"
+                i.fa.fa-linkedin
+            li
+              a href="#"
+                i.fa.fa-rss
+/! ================End Footer Area =================
+/! ================End Footer Area =================
+= render partial: "layouts/head_menu"
+/! ================End Footer Area =================
+/! ================Banner Area =================
+section.banner_area
+  .container
+    .banner_content
+      h4 Blog Gallery
+      a href="#"  Home
+      a href="blog.html"  Blog
+      a.active href="blog-gallery.html"  Blog Gallery
+/! ================End Banner Area =================
+/! ================Blog List Area =================
+section.blog_list_area
+  .container
+    .row
+      .col-md-8
+        .row.m0
+          article.blog_gallery_item.row.m0
+            .blog_date
+              .media
+                .media-left
+                  h4 14
+                  h4 FEB
+                .media-body
+                  i.fa.fa-picture-o
+            h3 Image Post Type Restaurant News
+            .blog_gallery_img
+              img alt="" src="img/blog/blog-gallery/blog-g-1.jpg" /
+              .blog_social
+                .pull-left
+                  h4
+                    | Posted by
+                    a href="http://rocky.obaidul.com"  Rocky
+                  a href="#"
+                    i.fa.fa-eye
+                    | 206
+                  a href="#"
+                    i.fa.fa-comment-o
+                    | 19
+                  a href="#"
+                    i.fa.fa-heart-o
+                    | 56
+                .pull-right
+                  h5 Share :
+                  ul.social_icon
+                    li
+                      a href="#"
+                        i.fa.fa-facebook
+                    li
+                      a href="#"
+                        i.fa.fa-twitter
+                    li
+                      a href="#"
+                        i.fa.fa-google-plus
+                    li
+                      a href="#"
+                        i.fa.fa-linkedin
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident...
+              a href="blog-detail.html"  Read More
+          article.blog_gallery_item.row.m0
+            .blog_date
+              .media
+                .media-left
+                  h4 14
+                  h4 FEB
+                .media-body
+                  i.fa.fa-camera-retro
+            h3 Gallery Post Type Restaurant News
+            .blog_gallery_img
+              .blog_gallery_slider
+                .item
+                  img alt="" src="img/blog/blog-gallery/blog-g-3.jpg" /
+                .item
+                  img alt="" src="img/blog/blog-gallery/blog-g-1.jpg" /
+                .item
+                  img alt="" src="img/blog/blog-gallery/blog-g-3.jpg" /
+                .item
+                  img alt="" src="img/blog/blog-gallery/blog-g-1.jpg" /
+              .blog_social
+                .pull-left
+                  h4
+                    | Posted by
+                    a href="http://rocky.obaidul.com"  Rocky
+                  a href="#"
+                    i.fa.fa-eye
+                    | 206
+                  a href="#"
+                    i.fa.fa-comment-o
+                    | 19
+                  a href="#"
+                    i.fa.fa-heart-o
+                    | 56
+                .pull-right
+                  h5 Share :
+                  ul.social_icon
+                    li
+                      a href="#"
+                        i.fa.fa-facebook
+                    li
+                      a href="#"
+                        i.fa.fa-twitter
+                    li
+                      a href="#"
+                        i.fa.fa-google-plus
+                    li
+                      a href="#"
+                        i.fa.fa-linkedin
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident...
+              a href="blog-detail.html"  Read More
+          article.blog_gallery_item.row.m0
+            .blog_date
+              .media
+                .media-left
+                  h4 14
+                  h4 FEB
+                .media-body
+                  i.fa.fa-youtube-play
+            h3 Video Post Type Restaurant News
+            .blog_gallery_img
+              .row.m0.video_row
+                iframe#video src="http://www.youtube.com/embed/ZOVvJJDuAvo?enablejsapi=1&html5=1&rel=0&fs=0&loop=1&showinfo=0&disablekb=1&controls=0&color=white&playlist=ZOVvJJDuAvo"
+                #video_overlay.overlay
+                  .overlay_bg
+                  .play_pause.row.m0
+                    i#play_btn.fa.fa-youtube-play aria-hidden="true"
+                    i#pause_btn.fa.fa-pause aria-hidden="true"
+              .blog_social
+                .pull-left
+                  h4
+                    | Posted by
+                    a href="http://rocky.obaidul.com"  Rocky
+                  a href="#"
+                    i.fa.fa-eye
+                    | 206
+                  a href="#"
+                    i.fa.fa-comment-o
+                    | 19
+                  a href="#"
+                    i.fa.fa-heart-o
+                    | 56
+                .pull-right
+                  h5 Share :
+                  ul.social_icon
+                    li
+                      a href="#"
+                        i.fa.fa-facebook
+                    li
+                      a href="#"
+                        i.fa.fa-twitter
+                    li
+                      a href="#"
+                        i.fa.fa-google-plus
+                    li
+                      a href="#"
+                        i.fa.fa-linkedin
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident...
+              a href="blog-detail.html"  Read More
+      .col-md-4
+        .blog_right_sidebar
+          aside.right_widget.search_widget
+            .input-group
+              input.form-control placeholder=("Search for...") type="text" /
+              span.input-group-btn
+                button.btn.btn-default type="button"
+                  i.fa.fa-search
+          aside.right_widget.category_widget
+            .sidebar_title
+              h3 Categories
+            ul
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Brasserie and Bistro (15)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Buffet and Smorgasbord (9)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Free Keyword Suggestion (19)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Barbecue (12)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Cafe (26)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Destination Restaurant (29)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Coffee House (42)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Tabletop Cooking (27)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Fast Food (13)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Pub (17)
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | Mongolian Barbecue (21)
+          aside.right_widget.calender_widget
+            .sidebar_title
+              h3 Calendar
+            #my-calendar
+          aside.right_widget.category_widget
+            .sidebar_title
+              h3 Archives
+            ul
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | November 2017
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | August 2017
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | July 2017
+              li
+                a href="#"
+                  i.fa.fa-chevron-right
+                  | June 2017
+          aside.right_widget.recent_widget
+            .sidebar_title
+              h3 RECENT POST
+            .media
+              .media-left
+                img alt="" src="img/blog/recent-post/recent-post-1.jpg" /
+              .media-body
+                a href="#"
+                  h4 Tailgating with Simon's Cheese: Bratwurst and Sauerkraut Pizza Recipe.
+                h5 November 18, 2017
+            .media
+              .media-left
+                img alt="" src="img/blog/recent-post/recent-post-2.jpg" /
+              .media-body
+                a href="#"
+                  h4 Tailgating with Simon's Cheese: Bratwurst and Sauerkraut Pizza Recipe.
+                h5 November 18, 2017
+            .media
+              .media-left
+                img alt="" src="img/blog/recent-post/recent-post-3.jpg" /
+              .media-body
+                a href="#"
+                  h4 Tailgating with Simon's Cheese: Bratwurst and Sauerkraut Pizza Recipe.
+                h5 November 18, 2017
+          aside.right_widget.tags_widget
+            .sidebar_title
+              h3 Tags
+            ul
+              li
+                a href="#"  Restaurant
+              li
+                a href="#"  Barbecue
+              li
+                a href="#"  Design
+              li
+                a href="#"  Pub
+              li
+                a href="#"  Marketing
+              li
+                a href="#"  html
+              li
+                a href="#"  Bar
+              li
+                a href="#"  Business
+              li
+                a href="#"  WordPress
+              li
+                a href="#"  Optimization
+/! ================End Blog List Area =================
+/! ================End Recent Blog Area =================
+footer.footer_area
+  .footer_widget_area
+    .container
+      .row
+        .col-md-3
+          aside.f_widget.about_widget
+            .f_w_title
+              h4 ABOUT RedCayenne
+            p Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ut.
+            ul
+              li
+                a href="#"
+                  i.fa.fa-facebook
+              li
+                a href="#"
+                  i.fa.fa-twitter
+              li
+                a href="#"
+                  i.fa.fa-google-plus
+              li
+                a href="#"
+                  i.fa.fa-linkedin
+        .col-md-3
+          aside.f_widget.contact_widget
+            .f_w_title
+              h4 CONTACT US
+            p Have questions, comments or just want to say hello:
+            ul
+              li
+                a href="#"
+                  i.fa.fa-envelope
+                  | backpiper.com@gmail.com
+              li
+                a href="#"
+                  i.fa.fa-phone
+                  | +88 01911 854 378
+              li
+                a href="#"
+                  i.fa.fa-map-marker
+                  | 5001 E. Colorado Blvd. Suite 820,
+                  br/
+                  | Pasadena, CA 91106
+        .col-md-3
+          aside.f_widget.twitter_widget
+            .f_w_title
+              h4 Twitter Feed
+            ul
+              li
+                a href="#"  @_sumonrahman:
+                | Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+              li
+                a href="#"  @_sumonrahman:
+                | Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+        .col-md-3
+          aside.f_widget.gallery_widget
+            .f_w_title
+              h4 Gallery On Flickr
+            ul
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-1.jpg" /
+                  i.fa.fa-search
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-2.jpg" /
+                  i.fa.fa-search
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-3.jpg" /
+                  i.fa.fa-search
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-4.jpg" /
+                  i.fa.fa-search
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-5.jpg" /
+                  i.fa.fa-search
+              li
+                a href="#"
+                  img alt="" src="img/gallery/f-w-gallery/f-w-gallery-6.jpg" /
+                  i.fa.fa-search
+  .copy_right_area
+    .container
+      .pull-left
+        h5
+        p
+          /! Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+          | Copyright ©
+          javascript:
+            document.write(new Date().getFullYear());
+          | All rights reserved | This template is made with
+          i.fa.fa-heart-o aria-hidden="true"
+          | by
+          a href="https://colorlib.com" target="_blank"  Colorlib
+          /! Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+      .pull-right
+        ul.nav.navbar-nav.navbar-right
+          li
+            a href="#"  Home
+          li.active
+            a href="#"  About Us
+          li
+            a href="#"  Menu
+          li
+            a href="#"  Gallery
+          li
+            a href="#"  Reservation
+          li
+            a href="#"  News
+          li
+            a href="#"  Contact Us
+/! ================End Recent Blog Area =================
+/! jQuery (necessary for Bootstrap's JavaScript plugins)
+script src="js/jquery-2.1.4.min.js"
+/! Include all compiled plugins (below), or include individual files as needed
+script src="js/bootstrap.min.js"
+/! Extra plugin js
+script src="vendors/bootstrap-selector/bootstrap-select.js"
+script src="vendors/bootatrap-date-time/bootstrap-datetimepicker.min.js"
+script src="vendors/owl-carousel/owl.carousel.min.js"
+script src="vendors/isotope/imagesloaded.pkgd.min.js"
+script src="vendors/isotope/isotope.pkgd.min.js"
+script src="vendors/countdown/jquery.countdown.js"
+script src="vendors/js-calender/zabuto_calendar.min.js"
+script src="js/video_player.js"
+script src="js/theme.js"
